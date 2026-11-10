@@ -1,0 +1,4 @@
+x = int(input())
+y = int(input())
+
+print(*(i for i in range(x + 1, y) if i % 2 != 0))
