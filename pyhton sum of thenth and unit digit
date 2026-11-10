@@ -1,0 +1,5 @@
+n = int(input())
+unit_digit = n % 10
+tenth_digit = (n // 10) % 10
+
+print(unit_digit + tenth_digit)
