@@ -1,0 +1,7 @@
+s = input().strip()
+c = input().strip()
+
+for ch in s:
+    if ch == c:
+        break
+    print(ch, end="")
